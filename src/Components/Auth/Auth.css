@@ -25,6 +25,20 @@
     position: relative;
   }
 
+  @media (max-width: 500px){
+    .auth-container{
+      justify-content: space-between;
+      background-image: none;
+      box-shadow: none;
+      width: 70vw;
+      
+    }
+
+    .dark-button{
+      margin: 40px;
+    }
+  }
+  
   .auth-title {
     font-size: 80px;
     font-weight: 700;
